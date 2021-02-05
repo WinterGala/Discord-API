@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Discord_API.Opcode.Ban" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\Ban.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Discord_API.Opcode.Invite" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAQAAAAgAAAAIAAAAAEAAAAAAAABAAA=</HashCode>
+      <FileName>Opcode\Invite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Discord_API.Opcode.InviteMetadata" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAAAAAAAAAACAAAQAAAAAAQAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\InviteMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Discord_API.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAACQgABICQqiGBhAkAABQIIBIsAAIDAOgEAAlqBAAA=</HashCode>
+      <FileName>Client.Channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Discord_API.GuildCache" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>GuildCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Discord_API.Snowflake" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAoAAGAgAAAAAAAAAAAIIAAAAAAAA=</HashCode>
+      <FileName>Snowflake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Discord_API.UserCache" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Discord_API.Opcode.Activity" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAAAABAAEAAQAAAAQAAAAAAAAASQAgBAAAAAA=</HashCode>
+      <FileName>Opcode\Activity.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ActivityAssets" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAEAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\ActivityAssets.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ActivityParty" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAAAAgAAAgAAAAIAAAA=</HashCode>
+      <FileName>Opcode\ActivityParty.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ActivitySecrets" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Opcode\ActivitySecrets.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ActivityTimestamps" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\ActivityTimestamps.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Channel" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAIAAAAAEAgAQAAAAQABEAAAQAAAwAAACEIAgg=</HashCode>
+      <FileName>Opcode\Channel.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ClientStatus" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\ClientStatus.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.ConnectedAccount" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAAAAAAQAAAAAIEAAAQAAAAACAAA=</HashCode>
+      <FileName>Opcode\ConnectedAccount.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Emoji" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAABgAAAAAAAAAAAAQAAhAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\Emoji.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.FeedSettings" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAAAAAEAAAQAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Opcode\FeedSettings.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.FriendSourceFlags" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Opcode\FriendSourceFlags.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Guild" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACgEAYoAYkAAwBAdADAAQkAiAAAwCBkABAAAFgEQg=</HashCode>
+      <FileName>Opcode\Guild.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.GuildFolder" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Opcode\GuildFolder.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.GuildMember" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAAIAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Opcode\GuildMember.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.GuildSettings" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAABAAAAAABgQAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Opcode\GuildSettings.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Hello" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Opcode\Hello.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Message" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAgAACAAAABCUIAAAAEAQQAAAAAAA=</HashCode>
+      <FileName>Opcode\Message.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Note" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\Note.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Overwrite" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Opcode\Overwrite.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.PartialGuildMember" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAAIAAAAAAAAAAAgAAgAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Opcode\PartialGuildMember.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Personalization" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opcode\Personalization.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.PresenceUpdate" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAABAAAAAACBggAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Opcode\PresenceUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Ready" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAhAACAAAAAAA4AAQAAAAAIAAgAABABAAgAAAIYAEA=</HashCode>
+      <FileName>Opcode\Ready.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Relationship" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Opcode\Relationship.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.Role" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACEAAgAAAAAAQAABAAAAAAEAAAgAAAAAA=</HashCode>
+      <FileName>Opcode\Role.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.TypingStart" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAgABAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Opcode\TypingStart.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.UserSettings" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAUgEiAAAECCQAICCAEAUAABQAAAAgAAAAAAQAHA=</HashCode>
+      <FileName>Opcode\UserSettings.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Opcode.VoiceState" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAICAAAAAgIBAAIAAAAAAQAAgAAEAA=</HashCode>
+      <FileName>Opcode\VoiceState.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.ConnectionProperties" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>ConnectionProperties.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.Payload" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAIAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Payload.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.ReadState" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAACAAABAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReadState.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.UnavailableGuild" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnavailableGuild.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Discord_API.User" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAIASAAAAAAgQQAAAAAAABIAAAAAAAIAAACAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Discord_API.Opcode.Permissions" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggBAwAACAAABATBAIIACABEIIACAQAAFIQEAAgA=</HashCode>
+      <FileName>Opcode\Permissions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
